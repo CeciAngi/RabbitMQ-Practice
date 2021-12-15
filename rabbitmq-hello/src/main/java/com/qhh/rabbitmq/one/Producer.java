@@ -20,7 +20,7 @@ public class Producer {
         ConnectionFactory factory = new ConnectionFactory();
         factory.setHost("192.168.255.128");
         factory.setUsername("admin");
-        factory.setPassword("123");
+        factory.setPassword("123" );
 //        创建连接
         Connection connection = factory.newConnection();
 //        获取信道
